@@ -16,7 +16,7 @@ Karena saya benci maven dan gradle saat waktu development maka packages tidak di
 ### Packages
 commons-codec-1.20.0.jar<br>
 commons-collections4-4.5.0.jar<br>
-commons-compress-1.28.0.jar<br><br>
+commons-compress-1.28.0.jar<br>
 commons-io-2.21.0.jar<br>
 commons-math3-3.6.1.jar<br>
 curvesapi-1.08.jar<br>
