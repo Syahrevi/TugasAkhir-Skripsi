@@ -13,7 +13,7 @@ Klik Start.bat
 ## Notice
 Karena saya benci maven dan gradle saat waktu development maka packages tidak di include di repo
 
-### packages
+### Packages
 commons-codec-1.20.0.jar<br>
 commons-collections4-4.5.0.jar<br>
 commons-compress-1.28.0.jar<br><br>
