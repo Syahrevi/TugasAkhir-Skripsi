@@ -1,0 +1,267 @@
+<!-- Created with Jaspersoft Studio version 7.0.6.final using JasperReports Library version 7.0.6-5d2a603fdc6b3db8f842a83383e594f41891534d  -->
+<jasperReport name="Blank_A4_Landscape" language="java" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4a3241e3-4d38-4ec3-9c57-ab71d5fe2f81">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="logo" class="java.io.InputStream"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="id_alternatif" class="java.lang.Integer"/>
+	<field name="nama_alternatif" class="java.lang.String"/>
+	<field name="frekuensi" class="java.lang.Double"/>
+	<field name="meninggal" class="java.lang.Double"/>
+	<field name="terluka" class="java.lang.Double"/>
+	<field name="pengungsi" class="java.lang.Double"/>
+	<field name="bangunan_rusak" class="java.lang.Double"/>
+	<field name="rumah_sakit" class="java.lang.Double"/>
+	<field name="tempat_evakuasi" class="java.lang.Double"/>
+	<background/>
+	<title height="81">
+		<element kind="image" uuid="40c3eed0-a2b4-4d0b-bf36-f3699b1f350a" x="0" y="0" width="70" height="80">
+			<expression><![CDATA[$P{logo}]]></expression>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="34991fa7-308f-48aa-a51d-9ec5765f25ea" x="200" y="0" width="600" height="20" fontName="Serif" fontSize="15.0" bold="true">
+			<text><![CDATA[BADAN NASIONAL PENANGGULANGAN BENCANA]]></text>
+		</element>
+		<element kind="staticText" uuid="76c9a4b0-e7e6-4f27-abfa-a1328c0cab01" x="230" y="20" width="570" height="20" fontName="Serif" fontSize="13.0">
+			<text><![CDATA[Graha BNPB - Jl. Pramuka Kav.38 Jakarta Timur 13120]]></text>
+		</element>
+		<element kind="staticText" uuid="0358e57c-ecc1-48b2-a8c3-6bb803421cdd" x="260" y="40" width="540" height="20" fontName="Serif" fontSize="13.0">
+			<text><![CDATA[Telepon: 021-29827793, Fax: 021-21281200]]></text>
+		</element>
+		<element kind="staticText" uuid="e45eee72-fbb4-4208-a607-fdd993a7798c" x="310" y="60" width="490" height="20" fontName="Serif" fontSize="13.0">
+			<text><![CDATA[Situs : https://bnpb.go.id/]]></text>
+		</element>
+	</title>
+	<pageHeader height="30">
+		<element kind="staticText" uuid="ede9ac46-a7de-495c-b9e2-d1d5dfe2c22c" mode="Opaque" x="0" y="0" width="800" height="30" backcolor="#EF8200" fontName="SansSerif" fontSize="20.0" hTextAlign="Center">
+			<text><![CDATA[LAPORAN MATRIKS TERBOBOT]]></text>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+	</pageHeader>
+	<columnHeader height="16">
+		<element kind="staticText" uuid="15288c22-b9a7-4345-8139-8c87336aa72f" mode="Opaque" x="0" y="0" width="30" height="15" backcolor="#FBFF03" bold="true" hTextAlign="Center">
+			<text><![CDATA[ID]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f18509bf-63cc-4615-a748-891d4c7caba3"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="0b7f4ec1-c362-4ba0-8d96-418c0c4b1b02" mode="Opaque" x="270" y="0" width="60" height="15" backcolor="#FBFF03" hTextAlign="Center">
+			<text><![CDATA[FREKUENSI]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ade30716-d2d7-405c-a1f4-1efe65be8e36"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="0b272013-50fb-4b56-9078-7427b4793766" mode="Opaque" x="330" y="0" width="70" height="15" backcolor="#FBFF03" hTextAlign="Center">
+			<text><![CDATA[MENINGGAL]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2f7660bd-b049-4a37-abe9-1ede5fb9b0d8"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="f3c92bd5-730b-45ec-87bf-2fafa38c2043" mode="Opaque" x="400" y="0" width="50" height="15" backcolor="#FBFF03" hTextAlign="Center">
+			<text><![CDATA[TERLUKA]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="87ba3ddb-a260-4235-8801-05eff942c5ed"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="89dd31f2-628a-4668-836c-36f98a0aa7fe" mode="Opaque" x="450" y="0" width="70" height="15" backcolor="#FBFF03" hTextAlign="Center">
+			<text><![CDATA[PENGUNGSI]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="570f97d1-248d-4ac1-8b61-88905702373e"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="8debe467-6b69-4527-8d9e-2b558aff22a8" mode="Opaque" x="520" y="0" width="100" height="15" backcolor="#FBFF03" hTextAlign="Center">
+			<text><![CDATA[BANGUNAN RUSAK]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ad890ea8-6da6-4515-abac-2c9d3d520811"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="9ce54728-ff5d-4eec-b9b7-7088ee4fa62e" mode="Opaque" x="620" y="0" width="80" height="15" backcolor="#FBFF03" hTextAlign="Center">
+			<text><![CDATA[RUMAH SAKIT]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="57bdbc0a-d13c-4301-bc29-5406bd6a1a09"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="33b14890-6eb4-4798-bd3e-a4cb02b1844c" mode="Opaque" x="700" y="0" width="100" height="15" backcolor="#FBFF03">
+			<text><![CDATA[TEMPAT EVAKUASI]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0bdafcc4-ec4a-4e56-b5ce-c3861e7d563e"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<element kind="staticText" uuid="50c0273b-b167-46b9-b80a-a80588595fe1" mode="Opaque" x="30" y="0" width="240" height="15" backcolor="#FBFF03" bold="true" hTextAlign="Center">
+			<text><![CDATA[NAMA]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ccce0668-b86e-4118-a980-2c4802b21bfd"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<box>
+				<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+			</box>
+		</element>
+		<property name="com.jaspersoft.studio.unit.height" value="px"/>
+	</columnHeader>
+	<detail>
+		<band height="16">
+			<element kind="textField" uuid="3321e0f2-1b94-42f1-a9b0-c40b34485637" x="30" y="-1" width="240" height="15" pattern="#,##0.000;(#,##0.000-)" hTextAlign="Left">
+				<expression><![CDATA[$F{nama_alternatif}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ccce0668-b86e-4118-a980-2c4802b21bfd"/>
+				<box padding="1">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="16e389f2-9430-4927-a3f8-42185cbad6cb" x="270" y="-1" width="60" height="15" pattern="#,##0.000;(#,##0.000-)">
+				<expression><![CDATA[$F{frekuensi}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ade30716-d2d7-405c-a1f4-1efe65be8e36"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="1e1fe260-26c0-4454-b849-ba7187ec4b0e" x="330" y="-1" width="70" height="15" pattern="#,##0.000;(#,##0.000-)">
+				<expression><![CDATA[$F{meninggal}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2f7660bd-b049-4a37-abe9-1ede5fb9b0d8"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="d993131f-add2-45a1-987f-0e417ea0a8e2" x="400" y="-1" width="50" height="15" pattern="#,##0.000;(#,##0.000-)">
+				<expression><![CDATA[$F{terluka}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="87ba3ddb-a260-4235-8801-05eff942c5ed"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="e543906d-e2e8-4ed0-8687-8b86ac38cf5d" x="450" y="-1" width="70" height="15" pattern="#,##0.000;(#,##0.000-)">
+				<expression><![CDATA[$F{pengungsi}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="570f97d1-248d-4ac1-8b61-88905702373e"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="d139fbac-28af-4ae1-b0dc-b057301cab1d" x="520" y="-1" width="100" height="15" pattern="#,##0.000;(#,##0.000-)">
+				<expression><![CDATA[$F{bangunan_rusak}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ad890ea8-6da6-4515-abac-2c9d3d520811"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="179e8891-086e-442f-86dc-18c0991604a8" x="620" y="-1" width="80" height="15" pattern="#,##0.000;(#,##0.000-)">
+				<expression><![CDATA[$F{rumah_sakit}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="57bdbc0a-d13c-4301-bc29-5406bd6a1a09"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="96e74cba-5710-4cab-a5ff-98c18990ee64" x="700" y="-1" width="100" height="15" pattern="#,##0.000;(#,##0.000-)">
+				<expression><![CDATA[$F{tempat_evakuasi}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0bdafcc4-ec4a-4e56-b5ce-c3861e7d563e"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<element kind="textField" uuid="029c775b-70a8-412a-8086-df32a2c7ae65" x="0" y="-1" width="30" height="15" pattern="#0.###;(#0.###-)">
+				<expression><![CDATA[$F{id_alternatif}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0212f282-88c2-42f7-b589-06cb1f2401a2"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</element>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</detail>
+	<pageFooter height="134">
+		<element kind="staticText" uuid="8ba8a627-99f3-4430-9537-0dcab0c0fb5e" x="652" y="30" width="88" height="14" hTextAlign="Right">
+			<text><![CDATA[Admin/Mengetahui]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="textField" uuid="8db6da44-f605-497a-89df-e5c96692d354" x="688" y="16" width="112" height="14" pattern="EEEE d MMMMM, yyyy" hTextAlign="Left">
+			<expression><![CDATA[new java.util.Date()]]></expression>
+		</element>
+		<element kind="staticText" uuid="2ef2a93d-edca-4f1c-af34-d9c4f4547ee1" x="638" y="16" width="50" height="14" hTextAlign="Right">
+			<text><![CDATA[Jakarta. ]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="dd450c49-c608-4c6d-87b4-a095bf4c2a09" x="592" y="120" width="208" height="14" hTextAlign="Right">
+			<text><![CDATA[Dr. Abdul Muhari, S.Si.,M.T.]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+	</pageFooter>
+</jasperReport>
